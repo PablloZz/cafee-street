@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- =============== STYLESHEET LINK =============== -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  <!-- =============== FONT AWESOME CDN =============== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <title>Cafe Street</title>
+  <link rel="icon" href="./src/Images/Logo/Logo Part 1.png">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="navbar">
+      <!-- =============== NAVBAR =============== -->
+      <div class="container">
+        <nav class="flex flex_navbar">
+          <div class="navbar__logo flex_logo">
+            <img src="./src/Images/Logo/Logo Part 1.png" alt="Logo">
+            <img src="./src/Images/Logo/Logo Part 2.png" alt="Logo">
+            <img src="./src/Images/Logo/Logo Part 3.png" alt="Logo">
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item navbar__item_orange">About us</li>
+            <li class="navbar__item">Our product</li>
+            <li class="navbar__item">Delivery</li>
+          </ul>
+          <div class="navbar__searchBlock flex">
+            <input type="text" name="search" id="search" class="navbar__searchbar searchbar search">
+            <i class="fa-solid fa-magnifying-glass navbar__searchIcon"></i>
+            <i class="fa-solid fa-cart-shopping navbar__cart"></i>
+            <i class="fa-solid fa-bars navbar__bars" data-showNavbar></i>
+          </div>
+        </nav>
+      </div>
+
+      <!-- =============== Responsive navbar =============== -->
+      <div class="navbar_responsive" data-hiddenNavbar>
+        <div class="responsive-container">
+          <div class="navbar__logo_responsive flex_logo">
+            <img src="./src/Images/Logo/Logoresp1.png" alt="Logo">
+            <img src="./src/Images/Logo/Logo Part 2.png" alt="Logo">
+            <img src="./src/Images/Logo/Logoresp3.png" alt="Logo">
+          </div>
+          <ul class="navbar__menu_responsive">
+            <li class="navbar__item navbar__item_orange">About us</li>
+            <li class="navbar__item">Cart</li>
+            <li class="navbar__item">Our product</li>
+            <li class="navbar__item">Delivery</li>
+          </ul>
+          <ul class="navbar__social flex_social">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- =============== HERO =============== -->
+      <div class="section">
+        <div class="hero">
+          <div class="container grid">
+            <div class="header-block">
+              <h1 class="header-block__header">Enjoy your <span>coffee</span> before your activity</h1>
+              <h4 class="header-block__subheader">Boost your productivity and build your mood with a glass of coffee in
+                the morning</h4>
+              <div class="btn-group">
+                <a href="#" class="btn btn_order">Order now <img src="./src/Images/First Page/Button Img.png"></a>
+                <a href="#" class="btn btn-transparent">More menu</a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="gradient product__gradient product__gradient_top">
+                <div class="product__info product__info_top">Cappuccino</div>
+              </div>
+              <div class="gradient product__gradient product__gradient_right">
+                <div class="product__info product__info_right">4.8 <img src="./src/Images/First Page/Star.png" alt="">
+                </div>
+              </div>
+              <div class="gradient product__gradient product__gradient_bottom">
+                <div class="product__info product__info_bottom">18K</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- =============== SHOWCASE =============== -->
+  <div class="wrrapper-bg">
+    <div class="showcase-position">
+      <div class="showcase-wrapper">
+        <div class="showcase-group container">
+          <h2 class="showcase-group__header">Popular <span>Now</span></h2>
+          <div class="slider-size">
+            <div class="showcase slider-container">
+              <div class="gradient gradient_size slider-container__slide">
+                <div class="showcase__item">
+                  <div class="showcase__product">
+                    <img src="./src/Images/First Page/Coffee-Product1.png" alt="Coffee">
+                    <div class="gradient gradient_ratingsize">
+                      <div class="showcase__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                    </div>
+                    <div class="showcase__header-group">
+                      <h3>Vanilla Latte</h3>
+                      <h3>21 K</h3>
+                    </div>
+                    <div class="flex">
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-transparent btn_border-orange">Hot</a>
+                        <a href="#" class="btn btn-transparent btn_border-lightorange">Cold</a>
+                      </div>
+                      <img src="./src/Images/First Page/Button Img.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gradient gradient_size slider-container__slide">
+                <div class="showcase__item">
+                  <div class="showcase__product">
+                    <img src="./src/Images/First Page/Coffee-Product2.png" alt="Coffee">
+                    <div class="gradient gradient_ratingsize">
+                      <div class="showcase__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                    </div>
+                    <div class="showcase__header-group">
+                      <h3>Espresso</h3>
+                      <h3>21 K</h3>
+                    </div>
+                    <div class="flex">
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-transparent btn_border-orange">Hot</a>
+                        <a href="#" class="btn btn-transparent btn_border-lightorange">Cold</a>
+                      </div>
+                      <img src="./src/Images/First Page/Button Img.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gradient gradient_size slider-container__slide">
+                <div class="showcase__item">
+                  <div class="showcase__product">
+                    <img src="./src/Images/First Page/Coffee-Product3.png" alt="Coffee">
+                    <div class="gradient gradient_ratingsize">
+                      <div class="showcase__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                    </div>
+                    <div class="showcase__header-group">
+                      <h3>Hazelnaut Latte</h3>
+                      <h3>21 K</h3>
+                    </div>
+                    <div class="flex">
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-transparent btn_border-orange">Hot</a>
+                        <a href="#" class="btn btn-transparent btn_border-lightorange">Cold</a>
+                      </div>
+                      <img src="./src/Images/First Page/Button Img.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="prev" id="prev">❮</a>
+            <a class="next" id="next">❯</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============== Delivery Block ============== -->
+  <article>
+    <div class="delivery-block container flex">
+      <h1 class="delivery-block__header">How to use delivery <span>service</span></h1>
+      <div class="flex delivery-block__items">
+        <div class="delivery-block__item">
+          <div class="flex delivery-block__item_size">
+            <img src="./src/Images/Second Page/choose-coffee.png" alt="Image">
+            <h2>Choose your coffee</h2>
+            <h3>There are 20+ coffees for you</h3>
+          </div>
+        </div>
+        <div class="delivery-block__item">
+          <div class="flex delivery-block__item_size">
+            <img src="./src/Images/Second Page/delivery.png" alt="Image">
+            <h2>We delivery it to you</h2>
+            <h3>Choose delivery service</h3>
+          </div>
+        </div>
+        <div class="delivery-block__item">
+          <div class="flex delivery-block__item_size">
+            <img src="./src/Images/Second Page/enjoy-coffee.png" alt="Image">
+            <h2>Enjoy your coffee</h2>
+            <h3>Choose delivery service</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============== About Us Section ============== -->
+  <section class="about-us-section">
+    <div class="about-us">
+      <div class="about-us__wrapper">
+        <div class="flex container">
+          <div>
+            <img src="./src/Images/Second Page/coffee-cup.png" alt="Coofee cup image" class="about-us__img">
+          </div>
+          <div class=" about-us__content_center">
+            <div class="about-us__content about-us__content_size">
+              <div class="about-us__header">
+                <h1>About <span>us</span></h1>
+              </div>
+              <div class="about-us__subheader">
+                <h2>We provide quality coffee, and ready to deliver.</h2>
+              </div>
+              <div class="about-us__text">
+                <h3>We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and
+                available in stores worldwide.</h3>
+              </div>
+              <a class="about-us__btn btn">Get your coffee</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== Menu Section ============== -->
+  <section>
+    <div class="menu container">
+      <h1 class="menu__header">Special menu <span>for you</span></h1>
+      <div class="menu__container slider-size2">
+        <div class="flex slider-container2">
+          <div class="menu__items-group flex slider-container__slide2">
+            <div class="item">
+              <div class="menu__item">
+                <div class="flex">
+                  <img src="./src/Images/Third Page/sandwich-product.png" alt="image" class="menu__img">
+                  <div class="gradient gradient_ratingsize">
+                    <div class="menu__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                  </div>
+                  <div class="menu__header-group">
+                    <h2>Sandwich</h2>
+                    <h2>12 K</h2>
+                  </div>
+                  <div class="menu__item_footer">
+                    <div class="btn-group">
+                      <h3>Bread with meat and vegetables</h3>
+                    </div>
+                    <img src="./src/Images/First Page/Button Img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="menu__item">
+                <div class="flex">
+                  <img src="./src/Images/Third Page/hot-milk-product.png" alt="image" class="menu__img">
+                  <div class="gradient gradient_ratingsize">
+                    <div class="menu__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                  </div>
+                  <div class="menu__header-group">
+                    <h2>Hot Milk</h2>
+                    <h2>12 K</h2>
+                  </div>
+                  <div class="menu__item_footer">
+                    <div class="btn-group">
+                      <h3>Hot Milk with less sugar</h3>
+                    </div>
+                    <img src="./src/Images/First Page/Button Img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__items-group flex slider-container__slide2">
+            <div class="item">
+              <div class="menu__item">
+                <div class="flex">
+                  <img src="./src/Images/Third Page/coffee-ice-cream-product.png" alt="image" class="menu__img">
+                  <div class="gradient gradient_ratingsize">
+                    <div class="menu__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                  </div>
+                  <div class="menu__header-group">
+                    <h2>Coffe Ice Cream</h2>
+                    <h2>12 K</h2>
+                  </div>
+                  <div class="menu__item_footer">
+                    <div class="btn-group">
+                      <h3>Coffe with ice cream vanilla</h3>
+                    </div>
+                    <img src="./src/Images/First Page/Button Img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="menu__item">
+                <div class="flex">
+                  <img src="./src/Images/Third Page/cappuccino-product.png" alt="image" class="menu__img">
+                  <div class="gradient gradient_ratingsize">
+                    <div class="menu__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                  </div>
+                  <div class="menu__header-group">
+                    <h2>Cappucino</h2>
+                    <h2>12 K</h2>
+                  </div>
+                  <div class="menu__item_footer">
+                    <div class="btn-group">
+                      <h3>Hot Cappucino</h3>
+                    </div>
+                    <img src="./src/Images/First Page/Button Img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__items-group flex slider-container__slide2">
+            <div class="item">
+              <div class="menu__item">
+                <div class="flex">
+                  <img src="./src/Images/Third Page/moccacinno-product.png" alt="image" class="menu__img">
+                  <div class="gradient gradient_ratingsize">
+                    <div class="menu__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                  </div>
+                  <div class="menu__header-group">
+                    <h2>Moccacinno</h2>
+                    <h2>12 K</h2>
+                  </div>
+                  <div class="menu__item_footer">
+                    <div class="btn-group">
+                      <h3>Hot Moccacino</h3>
+                    </div>
+                    <img src="./src/Images/First Page/Button Img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="menu__item">
+                <div class="flex">
+                  <img src="./src/Images/Third Page/waffle-ice-cream-product.png" alt="image" class="menu__img">
+                  <div class="gradient gradient_ratingsize">
+                    <div class="menu__rating">4.8 <img src="./src/Images/First Page/Star.png" alt=""></div>
+                  </div>
+                  <div class="menu__header-group">
+                    <h2>Waffle Ice Crem</h2>
+                    <h2>12 K</h2>
+                  </div>
+                  <div class="menu__item_footer">
+                    <div class="btn-group">
+                      <h3>Wafle with Ice cream</h3>
+                    </div>
+                    <img src="./src/Images/First Page/Button Img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="prev" id="prev2">❮</a>
+        <a class="next" id="next2">❯</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== Reviews Section ============== -->
+  <article class="reviews-article">
+    <div class="reviews-wrapper">
+      <div class="reviews-block container">
+        <div class="reviews-block__headers">
+          <h1 class="reviews-block__header">What they say about us</h1>
+          <h3 class="reviews-block__subheader">We always provide the best service and always maintain the quality of coffee
+          </h3>
+        </div>
+      </div>
+      <div class="scroll">
+        <div class="reviews">
+          <div class="reviews__group">
+            <img src="./src/Images/Fourth Page/feedback-img1.png" alt="image" class="reviews__img">
+            <div class="reviews__p-x-y">
+              <div class="reviews__content">
+                <h3 class="reviews__header">Naura</h3>
+                <textarea class="reviews__text" readonly>I really love the cappucino, the coffee was very smooth</textarea>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__group">
+            <img src="./src/Images/Fourth Page/feedback-img2.png" alt="image" class="reviews__img">
+            <div class="reviews__p-x-y">
+              <div class="reviews__content">
+                <h3 class="reviews__header">John</h3>
+                <textarea class="reviews__text" readonly>This coffee shop is very convenient</textarea>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__group">
+            <img src="./src/Images/Fourth Page/feedback-img3.png" alt="image" class="reviews__img">
+            <div class="reviews__p-x-y">
+              <div class="reviews__content">
+                <h3 class="reviews__header">Azura</h3>
+                <textarea class="reviews__text" readonly>The coffee menu here is very much</textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============== Footer ============== -->
+  <footer class="footer container">
+    <div class="footer__wrapper">
+      <div class="footer__content">
+        <h1 class="footer__header">Subscribe to get 50% discount price</h1>
+        <div class="footer__input-block">
+          <input type="text" class="footer__input input" id="footer__input">
+          <a href="javascript: void(0)" class="btn btn_size">Order now</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
